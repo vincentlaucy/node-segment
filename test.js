@@ -1,10 +1,10 @@
 /**
  * 测试
  */
- 
+
 var Segment = require('./index').Segment;
-var POSTAG = require('./index').POSTAG; 
-var fs = require('fs');
+var POSTAG = require('./index').POSTAG;
+// var fs = require('fs');
 
 var NUM = 1;
 var text = '\
@@ -144,7 +144,7 @@ for (var i in ret) {
 console.log(ret);
 console.log(line);
 console.log('spent ' + ((e - s) / NUM) + 'ms');
-return;
+// return;
 console.log(segment.toString(ret));
 var split = segment.split(ret, '是');
 for (var i in split)

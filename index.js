@@ -15,7 +15,7 @@ exports.Segment = Segment;
 exports.POSTAG = require('./lib/POSTAG');
 
 // 版本
-exports.version = require('./package.json').version;
+// exports.version = require('./package.json').version;
 
 /*
 使用示例：
