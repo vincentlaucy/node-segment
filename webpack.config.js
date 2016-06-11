@@ -2,7 +2,7 @@
 var path = require('path');
 module.exports = {
   entry: {
-    'app':['index.js'],
+    'index':['index.js'],
     'test':'test.js',
     'vendors': [
        'lodash'
