@@ -36,6 +36,5 @@ module.exports = {
     root: [__dirname],
     extensions: ['', '.js']
   },
-  plugins: [],
-  devtool:"eval"
+  plugins: []
 }
